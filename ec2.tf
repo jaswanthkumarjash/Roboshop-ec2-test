@@ -7,11 +7,11 @@ module "catalogue" {
 }
 
 output "pub_id" {
-    value = module.catalogue.public_id
+    value = module.catalogue.public_ip
 }
 
 output "priv_id" {
-    value = module.catalogue.private_id
+    value = module.catalogue.private_ip
 }
 
 output "id" {
