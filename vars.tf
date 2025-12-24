@@ -6,11 +6,11 @@ variable "ami_id" {
 variable "instance_type" {
     type = string
     default = "t3.micro"
-
 }
 
 variable "sg_ids" {
     type = list
+    default = ["sg-010f0caf83cbf088a"]
 }
 
 variable "tags" {
