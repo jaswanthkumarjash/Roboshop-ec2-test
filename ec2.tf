@@ -6,11 +6,11 @@ module "catalogue" {
     tags = var.tags
 }
 
-output "pub_id" {
+output "pub_ip" {
     value = module.catalogue.public_ip
 }
 
-output "priv_id" {
+output "priv_ip" {
     value = module.catalogue.private_ip
 }
 
